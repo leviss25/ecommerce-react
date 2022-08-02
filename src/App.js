@@ -1,5 +1,5 @@
 import "./App.css";
-// import MainContnet from "./Components/MainContent/MainContnet";
+import MainContnet from "./Components/MainContent/MainContnet";
 import Navbar from "./Components/Navbar/Navbar";
 
 function App() {
@@ -7,7 +7,7 @@ function App() {
 		<div className="app-container">
 			<div className="app">
 				<Navbar />
-				{/* <MainContnet /> */}
+				<MainContnet />
 			</div>
 		</div>
 	);
