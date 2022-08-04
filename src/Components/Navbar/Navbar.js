@@ -13,8 +13,9 @@ const Navbar = () => {
 	);
 	const NavIcons = (
 		<>
-			<a href="#">
+			<a className="basket-products" href="#">
 				<img src="images/icons/basket.png" alt="" srcset="" />
+				<span className="count">10</span>
 			</a>
 			<a href="#">
 				<img src="images/icons/person.png" alt="" srcset="" />
